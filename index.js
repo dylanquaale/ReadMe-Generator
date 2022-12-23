@@ -21,20 +21,17 @@ const inquirer = require('inquirer');
 const questions = [
     {
       type: 'input',
-      message: 'What is your GitHub user name?',
+      message: 'What is your GitHub username?',
       name: 'username',
-      // validate: github_input =>{
-      //   if(github_input){
-      //     return true;
-      //   }else{
-      //     console.log('please enter github username')
-      //     return false;
-      //   }
-      // }
     },
     {
       type: 'input',
-      message: 'What is the name of your project?',
+      message: 'What is email address?',
+      name: 'email',
+    },
+    {
+      type: 'input',
+      message: 'What is the Title of your project?',
       name: 'project',
     },
     {
@@ -88,7 +85,9 @@ function generatePage(userInput) {
  
   # What is your Github username?
   ${userInput.username}
-  # What is your projects name?
+  # What is your email address?
+  ${userInput.email}
+  # What is the title of your project?
   ${userInput.project}
   # What kind of license should your project have?
   ${userInput.license}

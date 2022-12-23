@@ -1,21 +1,23 @@
 # Title README-Generator
  
   # What is your Github username?
-  dylan
-  # What is your projects name?
-  none
+  https://github.com/dylanquaale
+  # What is your email address?
+  dylanquaale33@gmail.com
+  # What is the title of your project?
+  README-Generator
   # What kind of license should your project have?
-  dont worry about it
+  MIT
   # What command should be run to install dependencies?
-  install them all
+  npm i
   # What command should be run to run test?
-  run it now
+  npm test
   # What does the user need to know about using the repo?
-  repo it
+  Go at it as you please!
   # What does the user need to know about contributing to the repo?
-  contribute my repo
+  unzip file from my github
   # Installation
-  install all
+  the installation is amazing
   # Credits  
-  honor all
+  Honor all the crediters
   
