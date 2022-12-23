@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+
 // /*GIVEN a command-line application that accepts user input
 // WHEN I am prompted for information about my application repository
 // THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -15,11 +15,10 @@
 // WHEN I click on the links in the Table of Contents
 // THEN I am taken to the corresponding section of the README*/
 
-
+// TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-//const generatePage = require('./utils/generatePage.js');
-
+// Questions container
 const questions = [
     {
       type: 'input',
@@ -86,7 +85,7 @@ function writeToFile(fileName, data) {
   });
 };
 
-
+// template literals
 function generatePage(userInput) {
   let markdown = `# Title README-Generator
  
@@ -114,6 +113,7 @@ function generatePage(userInput) {
 
 
 // TODO: Create a function to initialize app
+// 
 function init() {
   inquirer.prompt(questions)
   .then(function(userInput) {
