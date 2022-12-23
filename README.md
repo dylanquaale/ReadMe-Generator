@@ -1,21 +1,21 @@
 # Title README-Generator
  
   # What is your Github username?
-  sad
+  dylan
   # What is your projects name?
-  sdasd
+  none
   # What kind of license should your project have?
-  asd
+  mit
   # What command should be run to install dependencies?
-  asd
+  all of it
   # What command should be run to run test?
-  das
+  run it all
   # What does the user need to know about using the repo?
-  ads
+  dont worry about it
   # What does the user need to know about contributing to the repo?
-  ads
+  hurry up
   # Installation
-  asddas
+  install it
   # Credits  
-  das
+  honor it 
   
