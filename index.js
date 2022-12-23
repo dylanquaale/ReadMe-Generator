@@ -37,9 +37,22 @@ const questions = [
     {
       type: 'input',
       message: 'What is the name of your project?',
-      name: 'username',
-      validate: color_input =>{
-        if(color_input){
+      name: 'project',
+      validate: project_input =>{
+        if(project_input){
+          return true;
+        }else{
+          console.log('please enter project name')
+          return false;
+        }
+      }
+    },
+    {
+      type: 'input',
+      message: 'What kind of license should your project have?',
+      name: 'license',
+      validate: license_input =>{
+        if(license_input){
           return true;
         }else{
           console.log('please enter github username')
@@ -49,10 +62,10 @@ const questions = [
     },
     {
       type: 'input',
-      message: 'What is the name of your project?',
-      name: 'username',
-      validate: color_input =>{
-        if(color_input){
+      message: 'What command should be run to install dependencies?',
+      name: 'command',
+      validate: command_input =>{
+        if(command_input){
           return true;
         }else{
           console.log('please enter github username')
@@ -62,10 +75,10 @@ const questions = [
     },
     {
       type: 'input',
-      message: 'What is the name of your project?',
-      name: 'username',
-      validate: color_input =>{
-        if(color_input){
+      message: 'What command should be run to run test?',
+      name: 'tests',
+      validate: test_input =>{
+        if(test_input){
           return true;
         }else{
           console.log('please enter github username')
@@ -75,23 +88,10 @@ const questions = [
     },
     {
       type: 'input',
-      message: 'What is the name of your project?',
-      name: 'username',
-      validate: color_input =>{
-        if(color_input){
-          return true;
-        }else{
-          console.log('please enter github username')
-          return false;
-        }
-      }
-    },
-    {
-      type: 'input',
-      message: 'What is your favorite food?',
-      name: 'username',
-      validate: food_input =>{
-        if(food_input){
+      message: 'What does the user need to know about using the repo?',
+      name: 'repo',
+      validate: repo_input =>{
+        if(repo_input){
           return true;
         }else{
           console.log('please enter github username')
@@ -101,17 +101,43 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'What are you doing today?',
-        name:'username',
-        validate: today_input =>{
-          if(today_input){
+        message: 'What does the user need to know about contributing to the repo?',
+        name:'contribute',
+        validate: contribute_input =>{
+          if(contribute_input){
             return true;
           }else{
             console.log('please enter github username')
             return false;
           }
         }
-    }
+    },
+    {
+      type: 'input',
+      message: 'What does the user need to know about installation?',
+      name: 'install',
+      validate: install_input =>{
+        if(install_input){
+          return true;
+        }else{
+          console.log('please enter github username')
+          return false;
+        }
+      }
+    },
+    {
+      type: 'input',
+      message: 'What credits are honored?',
+      name: 'credits',
+      validate: credit_input =>{
+        if(credit_input){
+          return true;
+        }else{
+          console.log('please enter github username')
+          return false;
+        }
+      }
+    },
 ]
 
 // TODO: Create a function to write README file
@@ -127,25 +153,25 @@ function writeToFile(fileName, data) {
 
 function generatePage(userInput) {
   let markdown = `# Title README-Generator
-
-  # Installation
-  ${userInput.username}
+ 
   # What is your Github username?
-  ${userInput.ProjectName}
+  ${userInput.username}
   # What is your projects name?
-  ${userInput.username}
+  ${userInput.project}
   # What kind of license should your project have?
-  ${userInput.username}
+  ${userInput.license}
   # What command should be run to install dependencies?
-  ${userInput.username}
+  ${userInput.command}
   # What command should be run to run test?
-  ${userInput.username}
+  ${userInput.tests}
   # What does the user need to know about using the repo?
-  ${userInput.username}
+  ${userInput.repo}
   # What does the user need to know about contributing to the repo?
-  ${userInput.username}
+  ${userInput.contribute}
+  # Installation
+  ${userInput.install}
   # Credits  
-  ${userInput.username}
+  ${userInput.credits}
   `
   return markdown;
 }
