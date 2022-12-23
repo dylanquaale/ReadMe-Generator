@@ -1,4 +1,3 @@
-
 // /*GIVEN a command-line application that accepts user input
 // WHEN I am prompted for information about my application repository
 // THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -74,7 +73,6 @@ const questions = [
       name: 'credits',
     },
 ]
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) => {
@@ -84,7 +82,6 @@ function writeToFile(fileName, data) {
     // console.log('Success you can view your readme file!')
   });
 };
-
 // template literals
 function generatePage(userInput) {
   let markdown = `# Title README-Generator
@@ -110,10 +107,7 @@ function generatePage(userInput) {
   `
   return markdown;
 }
-
-
 // TODO: Create a function to initialize app
-// 
 function init() {
   inquirer.prompt(questions)
   .then(function(userInput) {
@@ -121,7 +115,6 @@ function init() {
     writeToFile('README.md',generatePage(userInput));
   })
 }
-
 // Function call to initialize app
 init();
 
