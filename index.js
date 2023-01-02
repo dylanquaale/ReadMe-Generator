@@ -19,25 +19,17 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 // Questions container
 const questions = [
-    {
-      type: 'input',
-      message: 'What is your GitHub username?',
-      name: 'username',
-    },
-    {
-      type: 'input',
-      message: 'What is email address?',
-      name: 'email',
-    },
+   
     {
       type: 'input',
       message: 'What is the Title of your project?',
       name: 'project',
     },
     {
-      type: 'input',
+      type: 'checkbox',
       message: 'What kind of license should your project have?',
       name: 'license',
+      choices:["MIT", "GPLv2", "Apache", "GPLv3", "BSD 3-clause", "BSD 2-clause", "N/A"]
     },
     {
       type: 'input',
@@ -66,6 +58,16 @@ const questions = [
     },
     {
       type: 'input',
+      message: 'What is your GitHub username?',
+      name: 'username',
+    },
+    {
+      type: 'input',
+      message: 'What is email address?',
+      name: 'email',
+    },
+    {
+      type: 'input',
       message: 'What credits are honored?',
       name: 'credits',
     },
@@ -82,14 +84,9 @@ function writeToFile(fileName, data) {
 // template literals
 function generatePage(userInput) {
   let markdown = `# Title README-Generator
- 
-  # What is your Github username?
-  ${userInput.username}
-  # What is your email address?
-  ${userInput.email}
-  # What is the title of your project?
+  ## Description
   ${userInput.project}
-  # What kind of license should your project have?
+  # License
   ${userInput.license}
   # What command should be run to install dependencies?
   ${userInput.command}
@@ -101,6 +98,10 @@ function generatePage(userInput) {
   ${userInput.contribute}
   # Installation
   ${userInput.install}
+  # What is your Github username?
+  ${userInput.username}
+  # What is your email address?
+  ${userInput.email}
   # Credits  
   ${userInput.credits}
   `
