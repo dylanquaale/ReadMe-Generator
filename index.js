@@ -23,7 +23,23 @@ const questions = [
     {
       type: 'input',
       message: 'What is the Title of your project?',
-      name: 'project',
+      name: 'title',
+    },
+    {
+      type: 'input',
+      message: 'Please write a description of your project here:',
+      name: 'description',
+    },
+
+    {
+      type: 'input',
+      message: 'How is your software installed?',
+      name: 'install',
+    },
+    {
+      type: 'input',
+      message: 'How is your software used?',
+      name: 'usage',
     },
     {
       type: 'checkbox',
@@ -31,36 +47,28 @@ const questions = [
       name: 'license',
       choices:["MIT", "GPLv2", "Apache", "GPLv3", "BSD 3-clause", "BSD 2-clause", "N/A"]
     },
+   
     {
       type: 'input',
-      message: 'What command should be run to install dependencies?',
-      name: 'command',
+      message: 'How can people contribute to this project?',
+      name:'contribute',
     },
     {
       type: 'input',
-      message: 'What command should be run to run test?',
+      message: 'How can a user test your software?',
       name: 'tests',
     },
     {
       type: 'input',
-      message: 'What does the user need to know about using the repo?',
-      name: 'repo',
-    },
-    {
-        type: 'input',
-        message: 'What does the user need to know about contributing to the repo?',
-        name:'contribute',
-    },
-    {
-      type: 'input',
-      message: 'What does the user need to know about installation?',
-      name: 'install',
+      message: 'Questions?',
+      name: 'questions',
     },
     {
       type: 'input',
       message: 'What is your GitHub username?',
       name: 'username',
     },
+   
     {
       type: 'input',
       message: 'What is email address?',
@@ -83,27 +91,50 @@ function writeToFile(fileName, data) {
 };
 // template literals
 function generatePage(userInput) {
-  let markdown = `# Title README-Generator
+  let markdown = `# README-Generator
+  
+  ${userInput.title}
+  
   ## Description
-  ${userInput.project}
-  # License
-  ${userInput.license}
-  # What command should be run to install dependencies?
-  ${userInput.command}
-  # What command should be run to run test?
-  ${userInput.tests}
-  # What does the user need to know about using the repo?
-  ${userInput.repo}
-  # What does the user need to know about contributing to the repo?
-  ${userInput.contribute}
-  # Installation
+  ${userInput.description}
+  - What was your motivation?
+  - Why did you build this project?
+  - What problem does it solve?
+  - What did you learn?
+  
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  
+  ## Installation
   ${userInput.install}
-  # What is your Github username?
+
+  ## Usage
+  ${userInput.usage}
+ 
+  ## License
+  ${userInput.license}
+
+  ## Contributing
+  ${userInput.contribute}
+
+  ## Tests
+  ${userInput.tests}
+
+  ## Questions
+  ${userInput.questions}
+  
+  ## What is your Github username?
   ${userInput.username}
-  # What is your email address?
+  
+  ## What is your email address?
   ${userInput.email}
-  # Credits  
+  
+  ## Credits 
   ${userInput.credits}
+   
   `
   return markdown;
 }

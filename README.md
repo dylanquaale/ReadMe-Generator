@@ -1,22 +1,45 @@
-# Title README-Generator
-  ## Description
-  sdf
-  # What kind of license should your project have?
+# README-Generator
   
-  # What command should be run to install dependencies?
-  npm i
-  # What command should be run to run test?
-  sdf
-  # What does the user need to know about using the repo?
-  sdf
-  # What does the user need to know about contributing to the repo?
-  sdf
-  # Installation
-  sdf
-  # What is your Github username?
-  fsd
-  # What is your email address?
-  fds
-  # Credits  
-  sfd
+  qqqqqqqqqq
+  
+  ## Description
+  wwwwwwwwwwwwww
+  - What was your motivation?
+  - Why did you build this project?
+  - What problem does it solve?
+  - What did you learn?
+  
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  
+  ## Installation
+  eeeeeeeeeeeee
+
+  ## Usage
+  rrrrrrrrrrrr
+ 
+  ## License
+  MIT
+
+  ## Contributing
+  tttttttttttttt
+
+  ## Tests
+  yyyyyyyyyyyyyyy
+
+  ## Questions
+  uuuuuuuuuuuuuuuu
+  
+  ## What is your Github username?
+  iiiiiiiiiiiiiii
+  
+  ## What is your email address?
+  ppppppppppppppppp
+  
+  ## Credits 
+  ooooooooooooooooo
+   
   
