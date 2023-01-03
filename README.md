@@ -1,9 +1,15 @@
 # README-Generator
   
-  qqqqqqqqqq
+  ![badge](https://img.shields.io/badge/license-MIT-important)
+  ![badge](https://img.shields.io/badge/licenseMIT-BSD_3--Clause-blue.svg)
+  ![badge](https://img.shields.io/badge/licenseMIT-BSD_2--Clause-orange.svg)
+  ![badge](https://img.shields.io/badge/licenseMIT-Boost_1.0-lightblue.svg)
+  ![badge](https://img.shields.io/badge/licenseMIT-EPL_1.0-red.svg)
+
+  sad
   
   ## Description
-  wwwwwwwwwwwwww
+  as
   - What was your motivation?
   - Why did you build this project?
   - What problem does it solve?
@@ -16,30 +22,30 @@
   - [License](#license)
   
   ## Installation
-  eeeeeeeeeeeee
+  dsad
 
   ## Usage
-  rrrrrrrrrrrr
+  asd
  
   ## License
   MIT
 
   ## Contributing
-  tttttttttttttt
+  sad
 
   ## Tests
-  yyyyyyyyyyyyyyy
+  sadd
 
   ## Questions
-  uuuuuuuuuuuuuuuu
+  as
   
   ## What is your Github username?
-  iiiiiiiiiiiiiii
+  das
   
   ## What is your email address?
-  ppppppppppppppppp
+  dsa
   
   ## Credits 
-  ooooooooooooooooo
+  asd
    
   
