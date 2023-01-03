@@ -77,7 +77,7 @@ function writeToFile(fileName, data) {
 function generatePage(userInput) {
   let markdown = `# README-Generator
 
-  ![badge](https://img.shields.io/badge/license-${userInput.license}-yellow.svg)
+  ![badge](https://img.shields.io/badge/license-${userInput.license}-lightblue.svg)
  
   ${userInput.title}
   
