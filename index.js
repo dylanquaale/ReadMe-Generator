@@ -100,28 +100,20 @@ function generatePage(userInput) {
   
   ## Installation
   ${userInput.install}
-
   ## Usage
   ${userInput.usage}
- 
   ## License
   ${userInput.license}
-
   ## Contributing
   ${userInput.contribute}
-
   ## Tests
   ${userInput.tests}
-
   ## Questions
   ${userInput.questions}
-  
   ## What is your Github username?
-  ${userInput.username}
-  
+  ${userInput.username} 
   ## What is your email address?
   ${userInput.email}
-  
   ## Credits 
   ${userInput.credits}
    
