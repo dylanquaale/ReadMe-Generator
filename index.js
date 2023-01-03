@@ -27,19 +27,19 @@ const questions = [
     },
     {
       type: 'checkbox',
-      message: 'What kind of license should your project have?',
+      message: 'What kind of license do you want your project to have?',
       name: 'license',
       choices:["MIT", "Boost", "Apache", "Eclipse", "BSD 3-clause", "BSD 2-clause",]
     },
    
     {
       type: 'input',
-      message: 'How can people contribute to this project?',
+      message: 'How can users contribute to this project?',
       name:'contribute',
     },
     {
       type: 'input',
-      message: 'How can a user test your software?',
+      message: 'How can a user run tests?',
       name: 'tests',
     },
     {
@@ -55,7 +55,7 @@ const questions = [
    
     {
       type: 'input',
-      message: 'What is email address?',
+      message: 'What is your email address?',
       name: 'email',
     },
     {
