@@ -29,7 +29,7 @@ const questions = [
       type: 'checkbox',
       message: 'What kind of license do you want your project to have?',
       name: 'license',
-      choices:["MIT", "Boost", "Apache", "Eclipse", "BSD 3-clause", "BSD 2-clause",]
+      choices:["MIT", "Boost", "Apache", "Eclipse","GNU","GPLv2"]
     },
    
     {
@@ -76,12 +76,9 @@ function writeToFile(fileName, data) {
 // template literals
 function generatePage(userInput) {
   let markdown = `# README-Generator
-  ![badge](https://img.shields.io/badge/license${userInput.license}-MIT-yellow.svg)
-  ![badge](https://img.shields.io/badge/license${userInput.license}-BSD_3--Clause-blue.svg)
-  ![badge](https://img.shields.io/badge/license${userInput.license}-BSD_2--Clause-orange.svg)
-  ![badge](https://img.shields.io/badge/license${userInput.license}-Boost_1.0-lightblue.svg)
-  ![badge](https://img.shields.io/badge/license${userInput.license}-EPL_1.0-red.svg)
 
+  ![badge](https://img.shields.io/badge/license-${userInput.license}-yellow.svg)
+ 
   ${userInput.title}
   
   ## Description
@@ -109,13 +106,13 @@ function generatePage(userInput) {
   ${userInput.tests}
   ## Questions
   ${userInput.questions}
-  ## What is your Github username?
   ${userInput.username} 
-  ## What is your email address?
   ${userInput.email}
   ## Credits 
-  ${userInput.credits}
-   
+  -${userInput.credits}
+  -https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+  -Charlie helped start the template literal
+  -Ask "BCS"
   `
   return markdown;
 }

@@ -1,14 +1,12 @@
 # README-Generator
-  ![badge](https://img.shields.io/badge/licenseMIT-MIT-yellow.svg)
-  ![badge](https://img.shields.io/badge/licenseMIT-BSD_3--Clause-blue.svg)
-  ![badge](https://img.shields.io/badge/licenseMIT-BSD_2--Clause-orange.svg)
-  ![badge](https://img.shields.io/badge/licenseMIT-Boost_1.0-lightblue.svg)
-  ![badge](https://img.shields.io/badge/licenseMIT-EPL_1.0-red.svg)
 
-  asd
+
+  ![badge](https://img.shields.io/badge/license-MIT,Boost,Apache,Eclipse,GNU,GPLv2-yellow.svg)
+ 
+  as
   
   ## Description
-  asd
+  d
   - What was your motivation?
   - Why did you build this project?
   - What problem does it solve?
@@ -23,20 +21,20 @@
   ## Installation
   as
   ## Usage
-  d
+  
   ## License
-  MIT
+  MIT,Boost,Apache,Eclipse,GNU,GPLv2
   ## Contributing
-  sd
+  e
   ## Tests
-  fd
+  ds
   ## Questions
-  sfsd
-  ## What is your Github username?
-  ff 
-  ## What is your email address?
-  dsdfs
+  fsd
+  ds 
+  
   ## Credits 
-  dsf
-   
+  -fds
+  -https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+  -Charlie helped start the template literal
+  -Ask "BCS"
   
