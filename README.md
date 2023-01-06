@@ -1,11 +1,12 @@
 # README-Generator
-
-  ![badge](https://img.shields.io/badge/license-Eclipse-lightblue.svg)
  
+  ![badge](https://img.shields.io/badge/license-Apache-lightblue.svg)
+  https://drive.google.com/file/d/1EDZjfc3UFIiHtNqN8PlcVEGX-5FR7QDR/view 
+  
   README-Generator
   
   ## Description
-  You are able to add a readme.md with a license you select to any of your projects
+  You are able to generate a readme for any of your projects 
   - What was your motivation?
   - Why did you build this project?
   - What problem does it solve?
@@ -22,17 +23,17 @@
   ## Usage
   npm test
   ## License
-  Eclipse
+  Apache
   ## Contributing
-  You can go to my github profile. Then you will unzip my file giving you access
+  You can contribute by going to my github page unzip the file then download file to your local computer
   ## Tests
   npm test
   ## Questions
-  Any questions should be directed to my email which is listed and I will be happy to answer and questions
+  Any questions should be directed to my email 
   https://github.com/dylanquaale 
   dylanquaale33@gmail.com
   ## Credits 
-  -Honor all credits to this project gracefully
+  -Honor all of the creditors
   -https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
   -Charlie helped start the template literal
   -Ask "BCS"
