@@ -1,12 +1,13 @@
 # README-Generator
- 
+
   ![badge](https://img.shields.io/badge/license-Apache-lightblue.svg)
-  https://drive.google.com/file/d/1EDZjfc3UFIiHtNqN8PlcVEGX-5FR7QDR/view 
-  
+
+  https://drive.google.com/file/d/1gDc-KtAz5_lGMH75D-fX02OulYJTP1RJ/view
+ 
   README-Generator
   
   ## Description
-  You are able to generate a readme for any of your projects 
+  You are able to generate a readme to any of your projects
   - What was your motivation?
   - Why did you build this project?
   - What problem does it solve?
@@ -25,11 +26,11 @@
   ## License
   Apache
   ## Contributing
-  You can contribute by going to my github page unzip the file then download file to your local computer
+  You can contribute by going to my github page unzip the file and download to your computer
   ## Tests
   npm test
   ## Questions
-  Any questions should be directed to my email 
+  Any questions should be directed to my email
   https://github.com/dylanquaale 
   dylanquaale33@gmail.com
   ## Credits 
