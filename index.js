@@ -92,6 +92,8 @@ function generatePage(userInput) {
   - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
+  - [Tests](#Tests)
+  - [Contributing](#Contributing)
   
   ## Installation
   ${userInput.install}

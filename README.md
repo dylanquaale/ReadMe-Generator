@@ -1,13 +1,11 @@
 # README-Generator
 
-  ![badge](https://img.shields.io/badge/license-Apache-lightblue.svg)
-
-  https://drive.google.com/file/d/1gDc-KtAz5_lGMH75D-fX02OulYJTP1RJ/view
+  ![badge](https://img.shields.io/badge/license-Eclipse-lightblue.svg)
  
-  README-Generator
+  README-Genertor
   
   ## Description
-  You are able to generate a readme to any of your projects
+  You are able to generate at readme to any future projects
   - What was your motivation?
   - Why did you build this project?
   - What problem does it solve?
@@ -18,15 +16,17 @@
   - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
+  - [Tests](#Tests)
+  - [Contributing](#Contributing)
   
   ## Installation
   npm i
   ## Usage
   npm test
   ## License
-  Apache
+  Eclipse
   ## Contributing
-  You can contribute by going to my github page unzip the file and download to your computer
+  Contribute by going to my github page unzip file and download to your computer
   ## Tests
   npm test
   ## Questions
